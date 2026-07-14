@@ -8,7 +8,7 @@
 
 The system operates on a **Tiered Escalation** philosophy: Filter the "noise" locally, and escalate "intent" to the Cloud.
 
-1. **`guadrail.py` (The Interceptor):** A high-speed heuristic engine using **frequency-weighted scoring** and **diminishing multipliers** to identify known red flags with sub-millisecond latency.
+1. **`guardrail.py` (The Interceptor):** A high-speed heuristic engine using **frequency-weighted scoring** and **diminishing multipliers** to identify known red flags with sub-millisecond latency.
 2. **`judge.py` (The AI Brain):** The "Agentic Pivot." Ambiguous inputs (Yellow Zone) are escalated to a **Google Gemini 1.5** model. The Judge performs deep semantic analysis to detect obfuscated malicious intent.
 3. **`database.py` (The Memory):** Handles persistent logging of all interactions, scores, and decisions into a local **SQLite** database (`lumen_proxy.db`).
 4. **`audit_logs.py` (The Analyst Tool):** A CLI utility that extracts raw logs from the database and presents them in a clean, professional table format for Security Analysts.
