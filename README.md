@@ -1,10 +1,10 @@
-# 🛡️ Lumen Proxy: Agentic AI Security Gateway & Web-SOC
+﻿# ðŸ›¡ï¸ Lumen Proxy: Agentic AI Security Gateway & Web-SOC
 
 **Lumen Proxy** is a production-grade, multi-layered security middleware designed to protect Large Language Model (LLM) applications from prompt injection, social engineering, and adversarial attacks. It bridges the gap between **deterministic heuristics** and **agentic AI reflection**, providing a robust defense-in-depth architecture.
 
 ---
 
-## 🏗️ Architecture & Components
+## ðŸ—ï¸ Architecture & Components
 
 The system operates on a **Tiered Escalation** philosophy: Filter the "noise" locally, and escalate "intent" to the Cloud.
 
@@ -17,7 +17,7 @@ The system operates on a **Tiered Escalation** philosophy: Filter the "noise" lo
 
 ---
 
-## 🛡️ Security Philosophy & DevSecOps
+## ðŸ›¡ï¸ Security Philosophy & DevSecOps
 
 * **Cost-to-Value Optimization:** Local heuristics handle 90% of traffic, significantly reducing API token costs.
 * **Hybrid Intelligence:** Combines the speed of Python regex with the "reasoning" of Generative AI.
@@ -26,7 +26,7 @@ The system operates on a **Tiered Escalation** philosophy: Filter the "noise" lo
 
 ---
 
-## 🚀 Setup & Installation
+## ðŸš€ Setup & Installation
 
 ### Prerequisites
 * Python 3.11+
@@ -50,7 +50,7 @@ The system operates on a **Tiered Escalation** philosophy: Filter the "noise" lo
 ### Usage Pipeline:
 1. **Run the Core Proxy:**
 ```bash
-python guadrail.py
+python guardrail.py
 ```
 2. **Test Inputs:**
 * Try typing: "Just a normal question about the weather." (GREEN)
